@@ -1,0 +1,337 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.touristhelp{
+    position:fixed;
+    top:50%;
+}
+
+nav{
+    background-color:rgba(209, 95, 18, 0.91);
+    overflow:hidden;
+    padding:0 20px;
+    position:sticky;
+    top: 0;
+    z-index: 1;
+    
+}
+nav ul{
+    list-style-type:none;
+    float:right;
+    padding:20px;
+
+}
+nav a{
+    text-decoration:none;
+    display:inline-block;
+    color:white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size:20px;
+}
+
+nav ul li{
+    float:left;
+    padding:20px;
+    /* margin:0 10px; */
+
+}
+#logo{
+
+    padding:20px;
+    width:170px;
+    height:100px;
+    display:inline-block;   
+
+}
+#section1{
+    background-image:url(libary/replacebg.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    position:relative;
+    height:500px;
+    background-color:rgb(33, 7, 101);
+}
+marquee{
+    color:rgba(209, 95, 18, 0.91);
+    text-shadow:1px 1px 1px;
+}
+#text{
+    color:rgb(255, 255, 255);
+    position:absolute;
+    left:10%;
+    top:100px;
+}
+
+#button{
+    display:inline-block;
+    border:2px solid green;
+    background-color:rgba(209, 95, 18, 0.91);
+    color:white;
+    text-decoration:none;
+    padding:10px;
+
+}
+#button:hover{
+    background-color:rgb(37, 175, 81);
+}
+
+#bheader{
+    margin-bottom:20px;
+    padding-right:10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#p1{
+    width:50%;
+    /* padding:0 10px; */
+    line-height:35px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+img{
+    width:100%;
+}
+#tourgirl{
+    width:40%;
+    float:left;
+    margin-left:8%;
+}
+#text2{
+    width:40%;
+    float:right;
+    margin-right:8%;
+    line-height:35px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#section2{
+    margin-top:100px;
+}
+
+#tour2{
+border:2px solid;
+color:white;
+padding:10px;
+background-color:rgba(209, 95, 18, 0.91);
+text-decoration:none;
+}
+
+#tour2:hover{
+    background-color:green;
+}
+#section3{
+    clear:both;
+    padding-top:70px;
+    
+}
+
+
+.divosogbo{
+    float:left;
+    width:33%;
+    margin-bottom: 10px;
+    padding: 0 10px;
+    height: 650px;
+    box-shadow: 10px 6px 14px 4px rgba(212,197,197,0.81);
+   
+}
+.imagesec1{
+    width:100%;
+    height: 300px;
+}
+.divosogbo img:hover{
+ height:400px;
+ transition: all 0.8s 0.1s ease;
+}
+#tourheader{
+    text-align:center;
+    margin-bottom:20px;
+    text-decoration:underline;
+}
+.divosogbo h4{
+    margin:15px;
+
+}
+
+.divosogbo img{
+    padding:20px;
+}
+.divosogbo p{
+    line-height:30px;
+    margin:15px;
+}
+
+.divosogbo a{
+    display:inline-block;
+    border:2px solid green;
+    background-color:rgba(209, 95, 18, 0.91);
+    text-decoration:none;
+    /* padding:20px; */
+    /* margin:20px; */
+    padding:10px;
+    color:white;
+    
+
+}
+#touristfooter{
+    background-color: rgba(50, 24, 24, 0.47);
+    height:300px;
+}
+.divosogbo a:hover{
+    background-color:green;
+}
+#Tourist-footer{
+    clear:both;
+    background-color:rgb(29, 2, 2);
+    color:white;
+    overflow: hidden;
+    
+}
+
+#Tourist-footer ul{
+    list-style-type:none;
+}
+#Tourist-footer a{
+    text-decoration:none;
+    display:block;
+    padding:20px;
+    color:white;
+}
+.touristtext{
+    width:25%;
+    float:left;
+}
+@media(max-width:450px){
+    #tourgirl{
+        width:80%;
+        float:none;
+        padding-top:20px;
+    }
+    #section2{
+        margin-top:20px;
+    }
+    #text{
+        position:static;
+        text-align:center;
+        padding: 0 25px;
+
+    }
+
+    #p1{
+       display: inline;
+    }
+    #bheader{
+        padding-top: 20px;
+    }
+
+    #button{
+        display: block;
+        margin-left: 100px;
+        width: 150px;
+    }
+    #text2{
+        width:80%;
+        text-align:justify;
+        margin-bottom:0px;
+    }
+    #header3{
+        width:80%;
+        text-align:center;
+    }
+    
+    #tour2{
+        display:block;
+        margin-left:100px;
+        width:170px;
+        text-align:center;
+    }
+
+    #section3{
+        padding-top:20px;
+    }
+    .divosogbo{
+        width:95%;
+        float:none;
+        padding-right:20px;
+        height:720px;
+    }
+    #osogbobut{
+        width:50%;
+        margin-left:100px;
+        text-align:center;
+
+    }
+    #olumirinbut{
+        width:50%;
+        margin-left:100px;
+        text-align:center;
+    }
+    #oonibut{
+        width:50%;
+        margin-left:100px;
+        text-align:center;
+    
+    }
+    #oranmiyanbut{
+        width: 50%;
+        margin-left:100px;
+        text-align:center;
+    }
+    #micbut{
+        width: 50%;
+        margin-left:100px;
+        text-align:center;
+
+    }
+    
+    #ayibut{
+        width: 50%;
+        margin-left:100px;
+        text-align:center;
+    }
+
+    .mogun{
+        width: 50%;
+        margin-left:100px;
+        text-align:center;
+    }
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

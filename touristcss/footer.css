@@ -1,0 +1,35 @@
+#touristfooter{
+    background-color: rgba(50, 24, 24, 0.47);
+    height:300px;
+}
+.divosogboa:hover{
+    background-color:green;
+}
+#Tourist-footer{
+    clear:both;
+    background-color:rgb(29, 2, 2);
+    color:white;
+    overflow: hidden;
+    
+}
+
+#Tourist-footer ul{
+    list-style-type:none;
+}
+#Tourist-footer a{
+    text-decoration:none;
+    display:block;
+    padding:20px;
+    color:white;
+}
+.touristtext{
+    width:25%;
+    float:left;
+}
+@media(max-width:450px){
+    .touristtext{
+        width:90%;
+        text-align:center;
+    }
+
+}

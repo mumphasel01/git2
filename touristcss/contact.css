@@ -1,0 +1,54 @@
+.contact-1{
+
+    text-align:center;
+    font-size:25px;
+    padding-right: 70px;
+    padding-left:30px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-top:25px;
+    padding-bottom:25px;
+    width:100%;
+
+}
+
+.hr-1{
+
+    margin-right:500px;
+    margin-left:500px;
+    margin-bottom:50px;
+}
+
+.form1{
+
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:rgb(203, 108, 0);
+    font-size:20px;
+    padding-left:70px;
+    padding-right:70px;
+    padding-top:50px;
+
+}
+
+.label{
+
+    padding-bottom:25px;
+    padding-top:10px;
+
+}
+@media(max-width:450px){
+    .contact-1{
+        width:100%;
+        text-align:center;
+        font-size:20px;
+        position:static;
+        
+    }
+    .form1{
+        width:100%;
+        size:20px;
+        position:static;
+        margin-bottom:20px;
+    }
+
+}

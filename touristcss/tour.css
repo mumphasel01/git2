@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.tour-page{
+    width:25%;
+    float:left;
+    padding:0 20px;
+}
+.tour-page img{
+    width:100%;
+    height:300px;
+}
+.tour-page h1{
+    padding:20px;
+}
+.tour-page img:hover{
+    height:400px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+
+}
+
+@media(max-width:450px){
+    .tour-page{
+        width:100%;
+    }
+    #toursection{
+        margin-top:30px;
+    }
+    #headertour{
+        text-align:center;
+        padding-bottom:20px;
+    }
+
+}
